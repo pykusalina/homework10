@@ -1,5 +1,11 @@
 // TAsk 1
-$("h2").add(target="_blank");
+//$("h2").add(target="_blank");
+let a = $("a");
+let href = $("a href");
+if (href = "https://") {
+   a.add('target="_blank"');
+}
+
 
 // Task 2
 $("#head").css({backgroundColor: "green"});
@@ -10,7 +16,7 @@ let div = $("div");
 let h3 = $("h3");
 
 jquery(document).ready(function change() {
-h3 = div;
+h3 === div;
 })
 change();
 
